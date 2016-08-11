@@ -1,0 +1,16 @@
+{>"$PROJ/templates/main.dust" page_title="サブ役職一覧" /}
+{<content}
+  <article>
+    <h1>サブ役職一覧</h1>
+    <p>サブ役職とは、[[恋人]]のように補助的に付加される役職のことです。</p>
+    <p>サブ役職により勝利条件が変更されることもあります。</p>
+    <ul>
+      {@keys obj=jobs.subs}
+        <li>[[{value.name}]]</li>
+      {/keys}
+    </ul>
+  </article>
+{/content}
+
+
+

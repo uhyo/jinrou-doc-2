@@ -1,0 +1,8 @@
+{>"$PROJ/templates/category.dust"/}
+{<category_content}
+  <p>[[妖狐系]]とともに[[妖狐陣営]]に所属している系統です。</p>
+  <p>[[勝利判定]]では人カウントになります。</p>
+  <p>共通して、[[妖狐系]]が全滅すると後追い自殺するという特徴を持ちます。</p>
+{/category_content}
+
+

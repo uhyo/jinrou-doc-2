@@ -1,0 +1,11 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]の役職です。[[人狼系]]に襲われて死んだ場合、襲撃した[[人狼系]]が死亡すると同時に蘇生します。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <!-- @MrAllude -->
+{/job_content}
+

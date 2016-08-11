@@ -1,0 +1,31 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]の役職です。ゲーム中に1回だけ、夜に能力を発動して聖なる力で自身を守ることができます。</p>
+  <p>聖なる力はその夜から次の昼の処刑後まで有効で、何回でも死亡を免れることができます。護衛力は[[聖職者]]と同等です。</p>
+  <p>聖なる力によって死亡を免れても特に知らされません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>能力発動時</dt>
+      <dd>
+        <p class="log skill">○○が聖なる力で自身を守りました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[聖職者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[Twitter人狼]]</p>
+  </section>
+{/job_content}
+

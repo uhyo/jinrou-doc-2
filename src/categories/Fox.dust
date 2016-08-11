@@ -1,0 +1,7 @@
+{>"$PROJ/templates/category.dust"/}
+{<category_content}
+  <p>[[妖狐陣営]]に属する系統です。</p>
+  <p>[[勝利判定]]では狐カウントになります。</p>
+{/category_content}
+
+

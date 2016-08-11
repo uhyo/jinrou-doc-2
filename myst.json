@@ -1,0 +1,12 @@
+{
+    "outDir": "./output",
+    "rootDir": "./src",
+    "data": "./data",
+    "cache": ".myst.cache.json",
+    "dependency": ["./templates"],
+    "extension": ["./extensions/link.js", "./extensions/dust.js"],
+    "target": ["src/css/index.scss", "src/**/*.dust"],
+    "server": {
+        "port": 8080
+    }
+}

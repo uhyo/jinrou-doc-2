@@ -1,0 +1,23 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼陣営]]に属する人です。</p>
+  <p>特に能力はなく、人狼が誰かを知ることもできません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[狂信者]]</li>
+      <li>[[囁き狂人]]</li>
+      <li>[[邪魔狂人]]</li>
+    </ul>
+  </section>
+{/job_content}
+
+
+
+
+

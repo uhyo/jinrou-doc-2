@@ -1,0 +1,5 @@
+{>"$PROJ/templates/team.dust"/}
+{<team_content}
+  <p>特定の陣営に属さない役職が属するカテゴリです。主に[[役職変化系]]・[[第三陣営系]]からなります。</p>
+{/team_content}
+

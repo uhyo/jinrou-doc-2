@@ -1,0 +1,14 @@
+{>"$PROJ/templates/main.dust" /}
+{<content}
+  <article>
+    <h1>{site.title}</h1>
+    <p>{site.title}へようこそ！</p>
+    <p>
+      このページは
+      <a href="http://jinrou.uhyohyo.net/" target="_blank">月下人狼</a>
+      の詳細な仕様をまとめたページです。
+    </p>
+    <p>分からないことがある場合は、月下人狼のロビーに書くかTwitterで@uhyo_に質問してもらえれば対応できます。</p>
+  </article>
+{/content}
+

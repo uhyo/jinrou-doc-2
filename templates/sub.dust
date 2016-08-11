@@ -1,0 +1,11 @@
+{>"$PROJ/templates/main.dust" page_title=sub.name/}
+{<content}
+  <article>
+    <h1>{sub.name}</h1>
+    <p class="bcl">[[サブ役職一覧]] &gt; {sub.name}</p>
+    {+sub_content/}
+  </article>
+{/content}
+
+
+

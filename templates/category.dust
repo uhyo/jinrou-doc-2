@@ -1,0 +1,20 @@
+{>"$PROJ/templates/main.dust" page_title=category/}
+{<content}
+  <article>
+    <h1>{category}</h1>
+    <p class="bcl">[[系統一覧]] &gt; {category}</p>
+    {+category_content/}
+    <section>
+      <h2>所属する役職の一覧</h2>
+      <ul>
+        {@keys obj=jobs.jobs}
+          {@eq key=category value=value.type}
+            <li>[[{value.name}]]</li>
+          {/eq}
+        {/keys}
+      </ul>
+    </section>
+  </article>
+{/content}
+
+

@@ -1,0 +1,27 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>狼の子が死亡した場合、次の夜は[[人狼系]]は襲撃対象を2人選択します。</p>
+  <p>[[病人]]と狼の子が両方死亡した場合、あとから死亡したほうの効果のみ適用されます。同時に死亡した場合はどちらが適用されるかはランダムです。</p>
+  <p>狼の子が2人以上死亡した場合でも襲撃できるのは2人です。</p?
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt> 狼の子が死亡した後の夜の開始時（[[人狼系]]に表示）</dt>
+      <dd>
+        <p class="log skill">狼の子の力で、今日は2人襲撃できます。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>究極の人狼</p>
+  </section>
+{/job_content}
+

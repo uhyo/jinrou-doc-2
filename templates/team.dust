@@ -1,0 +1,19 @@
+{>"$PROJ/templates/main.dust" page_title=team/}
+{<content}
+  <article>
+    <h1>{team}</h1>
+    <p class="bcl">[[陣営一覧]] &gt; {team}</p>
+    {+team_content/}
+    <section>
+      <h2>所属する役職の一覧</h2>
+      <ul>
+        {@keys obj=jobs.jobs}
+          {@eq key=team value=value.team}
+            <li>[[{value.name}]]</li>
+          {/eq}
+        {/keys}
+      </ul>
+    </section>
+  </article>
+{/content}
+

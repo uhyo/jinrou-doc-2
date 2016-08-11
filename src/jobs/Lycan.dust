@@ -1,0 +1,21 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]の役職です。能力はありませんが、占い結果が通常と異なります。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[村人]]</li>
+      <li>[[聖痕者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>究極の人狼</p>
+  </section>
+{/job_content}
+

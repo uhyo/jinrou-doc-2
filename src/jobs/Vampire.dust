@@ -1,0 +1,28 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[ヴァンパイア陣営]]の役職です。村にヴァンパイアが複数いる場合、同じ陣営の仲間となります。</p>
+  <p>2日目以降、毎晩生存者を1人選択して襲撃できます。襲撃された人は翌朝[[無惨な姿で発見されます|死因一覧]]。</p>
+
+  <p>ヴァンパイアが複数いる場合、互いに把握できますが夜に会話はできません。また、ヴァンパイア1人につき1人襲撃することができます。</p>
+  <p>[[人狼系]]の襲撃とは異なり、{#dynamic.vampireToleranceJobs}[[{.name}]]{@sep}・{/sep}{/dynamic.vampireToleranceJobs}を除く全ての役職を死亡させることができます。特に、[[ヴァンパイア]]を襲撃して死亡させることもできます。
+p 
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[ヴァンパイア陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>襲撃対象選択時</dt>
+      <dd>
+        <p class="log skill">○○が○○を襲撃しました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>究極の人狼</p>
+  </section>
+{/job_content}
+

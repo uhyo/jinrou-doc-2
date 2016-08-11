@@ -1,0 +1,34 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>2日目以降、夜に1人選んでその人に呪いをかけて次の昼に発言できなくすることができます。</p>
+  <p>呪いをかけられた人は「全員に発言」ができなくなります（「独り言」のみ可能になります）。</p>
+  <p>ゲーム中に同じ人は1回までしか選べません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>対象選択時</dt>
+      <dd>
+        <p class="log skill">○○が○○に呪いをかけました。</p>
+      </dd>
+      <dt>昼の開始時（呪いをかけられた人に出現）</dt>
+      <dd>
+        <p class="log skill">○○は呪いをかけられました。昼に発言できません。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[呪われた者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>究極の人狼</p>
+  </section>
+{/job_content}

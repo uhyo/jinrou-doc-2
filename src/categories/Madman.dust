@@ -1,0 +1,6 @@
+{>"$PROJ/templates/category.dust"/}
+{<category_content}
+  <p>[[人狼系]]とともに[[人狼陣営]]に所属している系統です。</p>
+  <p>[[勝利判定]]では人カウントになります。</p>
+{/category_content}
+

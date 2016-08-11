@@ -1,0 +1,6 @@
+{>"$PROJ/templates/category.dust"/}
+{<category_content}
+  <p>[[村人陣営]]・[[人狼陣営]]・[[妖狐陣営]]以外に属する役職や特定の陣営に属さない役職が属する系統です。</p>
+{/category_content}
+
+

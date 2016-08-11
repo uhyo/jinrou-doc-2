@@ -1,0 +1,31 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]の役職です。プリンスが処刑された場合、一度だけ処刑が無効になります。</p>
+  <p>[[聖職者]]の護衛があった場合、そちらが優先され、プリンスの能力は使用されません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>処刑されそうになったとき</dt>
+      <dd>
+        <p class="log skill">○○はプリンスでした。処刑は行われませんでした。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[王様]]</li>
+      <li>[[女王観戦者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>究極の人狼</p>
+  </section>
+{/job_content}
+

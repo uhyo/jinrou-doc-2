@@ -1,0 +1,6 @@
+{>"$PROJ/templates/category.dust"/}
+{<category_content}
+  <p>役職・[[陣営|陣営一覧]]が変化する役職が属する系統です。一部は[[村人陣営]]に属します。</p>
+{/category_content}
+
+

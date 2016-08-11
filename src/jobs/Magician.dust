@@ -1,0 +1,31 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]の役職です。3日目以降、毎夜死亡者の中から1人選択して一定確率で[[蘇生]]させることができます。</p>
+  <p>蘇生確率は30%ですが、[[身代わりくん]]に対してだけ60%になります。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>対象選択時</dt>
+      <dd>
+        <p class="log skill">○○は○○に死者蘇生術をかけました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[猫又]]</li>
+      <li>[[魔女]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[桃栗サーバー]]</p>
+  </section>
+{/job_content}
+
