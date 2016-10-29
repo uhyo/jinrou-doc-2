@@ -806,6 +806,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "人狼HOUSE"
+  CraftyWolf:
+      name: "狡猾な狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "任意"
+      source: "人狼放浪記"
 
 
 # 陣営の定義
