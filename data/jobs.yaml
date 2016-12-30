@@ -488,7 +488,7 @@ jobs:
       team: "村人陣営"
       type: "村人系"
       fortune: "人狼"
-      psychic: "村人"
+      psychic: "人狼"
       judge: "人"
       select: "強制"
       wolfGuard: true
@@ -796,7 +796,7 @@ jobs:
       psychic: "人狼"
       judge: "人"
       select: "任意"
-      source: "その他"
+      source: "人狼放浪記"
   Hypnotist:
       name: "催眠術師"
       team: "人狼陣営"
@@ -815,6 +815,15 @@ jobs:
       judge: "狼"
       select: "任意"
       source: "人狼放浪記"
+  Shishimai:
+      name: "獅子舞"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "オリジナル"
 
 
 # 陣営の定義
