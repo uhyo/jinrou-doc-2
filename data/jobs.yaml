@@ -824,6 +824,32 @@ jobs:
       judge: "人"
       select: "任意"
       source: "オリジナル"
+  Pumpkin:
+      name: "かぼちゃ魔"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "人狼放浪記"
+  MadScientist:
+      name: "マッドサイエンティスト"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼放浪記"
+  SpiritPossessed:
+      name: "悪霊憑き"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      source: "人狼放浪記"
 
 
 # 陣営の定義
