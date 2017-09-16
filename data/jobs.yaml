@@ -850,6 +850,25 @@ jobs:
       psychic: "村人"
       judge: "人"
       source: "人狼放浪記"
+  Forensic:
+      name: "法医学者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "人狼放浪記"
+  Cosplayer:
+      name: "コスプレイヤー"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "人狼"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "牢獄の悪夢"
+
 
 
 # 陣営の定義
