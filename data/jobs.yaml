@@ -868,6 +868,24 @@ jobs:
       judge: "人"
       select: "強制"
       source: "牢獄の悪夢"
+  TinyGhost:
+      name: "おばけ"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "なし"
+      select: null
+      source: "こびと人狼/人狼パーティー"
+  Ninja:
+      name: "忍者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "人狼パーティー"
 
 
 
