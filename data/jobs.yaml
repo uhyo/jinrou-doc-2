@@ -886,6 +886,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "人狼パーティー"
+  Twin:
+      name: "双子"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼パーティー"
 
 
 
