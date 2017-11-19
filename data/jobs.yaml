@@ -895,6 +895,24 @@ jobs:
       judge: "人"
       select: null
       source: "不明"
+  Hunter:
+      name: "ハンター"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "ミラーズホロウの人狼"
+  MadHunter:
+      name: "復讐人"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "えけけ鯖"
 
 
 
