@@ -280,7 +280,7 @@ jobs:
       psychic: "村人"
       judge: "人"
       select: "強制"
-      source: "不明"
+      source: "ミラーズホロウの人狼"
   Stalker:
       name: "ストーカー"
       team: "その他"
