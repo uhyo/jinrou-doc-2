@@ -381,7 +381,7 @@ jobs:
       source: "究極の人狼"
   CultLeader:
       name: "カルトリーダー"
-      team: "その他"
+      team: "カルトリーダー陣営"
       type: "第三陣営系"
       fortune: "村人"
       psychic: "村人"
@@ -931,6 +931,15 @@ jobs:
       judge: "人"
       select: null
       source: "人狼式"
+  EyesWolf:
+      name: "瞳狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼式"
 
 
 
@@ -941,6 +950,7 @@ teams:
   Fox: "妖狐陣営"
   Vampire: "ヴァンパイア陣営"
   Devil: "悪魔くん陣営"
+  Cult: "カルトリーダー陣営"
   Friend: "恋人陣営"
   Others: "その他"
 
