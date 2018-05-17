@@ -940,6 +940,24 @@ jobs:
       judge: "狼"
       select: null
       source: "人狼式"
+  TongueWolf:
+      name: "舌禍狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼式"
+  BlackCat:
+      name: "黒猫"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼ジャッジメント"
 
 
 
