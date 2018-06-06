@@ -4,33 +4,53 @@
     <h1>{job.name}</h1>
     <p class="bcl">[[役職一覧]] &gt; {job.name}</p>
     <div class="jobinfo">
-      <dl>
-        <dt>陣営</dt>
-        <dd> [[{job.team}]]</dd>
-        <dt>系統</dt>
-        <dd>{@eq key=job.type value="なし"}
-          なし
+      <table>
+        <caption>{job.name}の情報</caption>
+        <tr>
+          <th>陣営</th>
+          <td>[[{job.team}]]</td>
+        </tr>
+        <tr>
+          <th>系統</th>
+          <td>
+          {@eq key=job.type value="なし"}
+            なし
           {:else}
-          [[{job.type}]]
-        {/eq}</dd>
-        <dt>占い結果</dt>
-        <dd>{job.fortune}</dd>
-        <dt>霊能結果</dt>
-        <dd>{job.psychic}</dd>
-        <dt>終了判定カウント</dt>
-        <dd>{job.judge}</dd>
-        <dt>夜選択</dt>
-        <dd>{@select key=job.select type="string"}
-          {@eq value="null"}なし{/eq}
-          {@eq value="undefined"}なし{/eq}
-          {@none}{job.select}{/none}
-        {/select}</dd>
-        <dt>出典</dt>
-        <dd>{@isin key=job.source obj=urlTable}
-          <a href="{@get key=job.source obj=urlTable /}" target="_blank">{job.source}</a>
-          {:else}
-          {job.source}
-        {/isin}</dd>
+            [[{job.type}]]
+          {/eq}
+          </td>
+        </tr>
+        <tr>
+          <th>占い結果</th>
+          <td>{job.fortune}</td>
+        </tr>
+        <tr>
+          <th>霊能結果</th>
+          <td>{job.psychic}</td>
+        </tr>
+        <tr>
+          <th>終了判定カウント</th>
+          <td>{job.judge}</td>
+        </tr>
+        <tr>
+          <th>夜選択</th>
+          <td>{@select key=job.select type="string"}
+            {@eq value="null"}なし{/eq}
+            {@eq value="undefined"}なし{/eq}
+            {@none}{job.select}{/none}
+          {/select}
+          </td>
+        </tr>
+        <tr>
+          <th>出典</th>
+          <td>{@isin key=job.source obj=urlTable}
+            <a href="{@get key=job.source obj=urlTable /}" target="_blank">{job.source}</a>
+            {:else}
+            {job.source}
+          {/isin}
+          </td>
+        </tr>
+      </table>
     </div>
     {+job_content/}
   </article>
