@@ -967,6 +967,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "オリジナル"
+  XianFox:
+      name: "仙狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "強制"
+      source: "その他"
 
 
 
