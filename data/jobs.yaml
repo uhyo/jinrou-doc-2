@@ -974,7 +974,7 @@ jobs:
       fortune: "村人"
       psychic: "村人"
       judge: "狐"
-      select: "強制"
+      select: "任意"
       source: "その他"
 
 
