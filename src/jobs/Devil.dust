@@ -15,7 +15,7 @@
     <dl class="logs">
       <dt>人狼に襲撃されたとき</dt>
       <dd>
-        <p class="log skill">○○は人狼に襲われました。</p>
+        <p class="log skill">○○は人狼に襲われて悪魔の力を増大させました。</p>
       </dd>
     </dl>
   </section>

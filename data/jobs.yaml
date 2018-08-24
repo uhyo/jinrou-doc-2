@@ -976,8 +976,15 @@ jobs:
       judge: "狐"
       select: "任意"
       source: "その他"
-
-
+  LurkingMad:
+      name: "暗躍者"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
