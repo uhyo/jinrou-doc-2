@@ -158,7 +158,7 @@ jobs:
       fortune: "人狼"
       psychic: "人狼"
       judge: "狼"
-      select: "強制"
+      select: "襲撃：強制，占い：任意"
       source: "桃栗サーバー"
   Fugitive:
       name: "逃亡者"
