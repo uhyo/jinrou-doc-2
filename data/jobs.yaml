@@ -985,6 +985,24 @@ jobs:
       judge: "人"
       select: null
       source: "オリジナル"
+  SnowLover:
+      name: "雪女"
+      team: "恋人陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "月夜の人狼"
+  Raven:
+      name: "鴉"
+      team: "鴉陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "なし"
+      source: "月夜の人狼"
 
 # 陣営の定義
 teams:
@@ -995,6 +1013,7 @@ teams:
   Devil: "悪魔くん陣営"
   Cult: "カルトリーダー陣営"
   Friend: "恋人陣営"
+  Raven: "鴉陣営"
   Others: "その他"
 
 # 系統の定義
