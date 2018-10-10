@@ -155,3 +155,15 @@ p.log.system::after {
   font-size: small;
   color: #999999;
 }
+
+/* 詳細な仕様 */
+section.nit {
+  background-color: #f3f3f3;
+  font-size: 0.85rem;
+  margin: 1em 0;
+  padding: 8px;
+
+  h2 {
+    font-size: 1.1rem;
+  }
+}
