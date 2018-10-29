@@ -52,6 +52,7 @@ module.exports = context=>{
                 "勝利判定":"/judge.html",
                 "闇鍋":"/yaminabe.html",
                 "ケミカル人狼":"/chemical.html",
+                "即時発動型能力":"/immediateSkills.html",
                 "役職一覧":"/jobs/index.html",
                 "陣営一覧":"/teams/index.html",
                 "系統一覧":"/categories/index.html",

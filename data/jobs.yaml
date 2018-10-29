@@ -1003,6 +1003,15 @@ jobs:
       judge: "人"
       select: "なし"
       source: "月夜の人狼"
+  DecoyWolf:
+      name: "囮狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "任意"
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
