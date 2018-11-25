@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "myst",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uhyo",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^3.13.1"
+  },
+  "devDependencies": {
+    "my-static": "^1.1.1"
   }
 }
