@@ -1012,6 +1012,15 @@ jobs:
       judge: "狼"
       select: "任意"
       source: "オリジナル"
+  LunaticLover:
+      name: "狂愛者"
+      team: "恋人陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "その他"
 
 # 陣営の定義
 teams:
