@@ -1021,6 +1021,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "その他"
+  Hooligan:
+      name: "暴徒"
+      team: "暴徒陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
@@ -1032,6 +1041,7 @@ teams:
   Cult: "カルトリーダー陣営"
   Friend: "恋人陣営"
   Raven: "鴉陣営"
+  Hooligan: "暴徒陣営"
   Others: "その他"
 
 # 系統の定義
@@ -1082,3 +1092,11 @@ subs:
     name: "狐憑き"
     disp: "役職名"
     real: "狐憑き（役職名）"
+  HooliganAttacker:
+    name: "暴動者"
+    disp: "役職名（暴動者）"
+    real: "役職名（暴動者）"
+  HooliganGuard:
+    name: "警備員"
+    disp: "役職名（警備員）"
+    real: "役職名（警備員）"
