@@ -864,7 +864,7 @@ jobs:
       team: "村人陣営"
       type: "村人系"
       fortune: "人狼"
-      psychic: "村人"
+      psychic: "人狼"
       judge: "人"
       select: "強制"
       source: "牢獄の悪夢"
