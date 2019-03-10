@@ -15,11 +15,11 @@
     <dl class="logs">
       <dt>能力発動時（占い師不在時）</dt>
       <dd>
-        <p class="log skill">○○は占い師のママです。占い師はいません。</p>
+        <p class="log skill">○○は予言者のママです。占い師はいません。</p>
       </dd>
       <dt>能力発動時（占い師がいるとき）</dt>
       <dd>
-        <p class="log skill">○○は占い師のママです。占い師は○○です。</p>
+        <p class="log skill">○○は予言者のママです。占い師は○○です。</p>
       </dd>
     </dl>
   </section>
