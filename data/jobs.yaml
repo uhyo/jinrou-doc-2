@@ -753,7 +753,7 @@ jobs:
       psychic: "村人"
       judge: "人"
       select: "なし"
-      source: "Twitter"
+      source: "その他"
   Bomber:
       name: "爆弾魔"
       team: "人狼陣営"
