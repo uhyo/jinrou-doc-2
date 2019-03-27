@@ -1073,6 +1073,35 @@ jobs:
       judge: "人"
       select: "強制"
       source: "人狼NET"
+  Samurai:
+      name: "侍"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      wolfGuard: true
+      vampireGuard: true
+      select: "強制"
+      source: "月夜の人狼"
+  Dracula:
+      name: "ドラキュラ"
+      team: "ヴァンパイア陣営"
+      type: "第三陣営系"
+      fortune: "ヴァンパイア"
+      psychic: "村人"
+      judge: "ヴァンパイア"
+      select: "強制"
+      source: "人狼パーティー"
+  VampireClan:
+      name: "吸血鬼の眷属"
+      team: "ヴァンパイア陣営"
+      type: "その他"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼パーティー"
 
 # 陣営の定義
 teams:
