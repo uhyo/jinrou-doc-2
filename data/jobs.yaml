@@ -1102,6 +1102,15 @@ jobs:
       judge: "人"
       select: null
       source: "人狼パーティー"
+  Elementaler:
+      name: "精霊使い"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "魔法都市の人狼"
 
 # 陣営の定義
 teams:
