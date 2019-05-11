@@ -1164,7 +1164,7 @@ subs:
   Counseled:
     name: "更生者"
     disp: "更生者（役職名）"
-    real: "校正者（役職名）"
+    real: "更生者（役職名）"
   KeepedLover:
     name: "手玉"
     disp: "恋人（役職名）"
