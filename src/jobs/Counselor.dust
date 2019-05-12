@@ -14,7 +14,7 @@
   <section>
     <h2>ログ</h2>
     <dl class="logs">
-      <dt>カウンセリング対象洗濯時</dt>
+      <dt>カウンセリング対象選択時</dt>
       <dd>
         <p class="log skill">○○は○○をカウンセリングしました。</p>
       </dd>
