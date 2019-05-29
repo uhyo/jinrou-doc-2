@@ -13,6 +13,6 @@
     "node-sass": "^3.13.1"
   },
   "devDependencies": {
-    "my-static": "^1.1.1"
+    "my-static": "^2.0.0"
   }
 }
