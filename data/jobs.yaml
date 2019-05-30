@@ -1111,6 +1111,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "魔法都市の人狼"
+  Poet:
+      name: "歌人"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
