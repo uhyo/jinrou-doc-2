@@ -1120,6 +1120,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "オリジナル"
+  Amanojaku:
+      name: "天邪鬼"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
 
 # 陣営の定義
 teams:
