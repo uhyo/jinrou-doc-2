@@ -1138,6 +1138,15 @@ jobs:
       judge: "人"
       select: null
       source: "えけけ鯖"
+  DarkClown:
+      name: "闇道化"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "闇夜の人狼"
 
 # 陣営の定義
 teams:
