@@ -1,4 +1,3 @@
-    
 {>"$PROJ/templates/job.dust"/}
 {<job_content}
   <p>毎朝自身の陣営が[[村人陣営]]と[[人狼陣営]]で交互に入れ替わります。</p>
@@ -15,11 +14,11 @@
     <dl class="logs">
       <dt>人格が人狼側に入れ替わったとき</dt>
       <dd>
-        <p class="log skill">今日は人狼側の人格です。</p>
+        <p class="log skill">今日の○○は人狼側の人格です。</p>
       </dd>
       <dt>人格が村人側に入れ替わったとき</dt>
       <dd>
-        <p class="log skill">今日は村人側の人格です。</p>
+        <p class="log skill">今日の○○は村人側の人格です。</p>
       </dd>
     </dl>
   </section>
