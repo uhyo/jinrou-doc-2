@@ -1138,6 +1138,17 @@ jobs:
       judge: "人"
       select: null
       source: "えけけ鯖"
+  Sacrifice:
+      name: "人身御供"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      wolfGuard: true
+      vampireGuard: true
+      select: "任意"
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
