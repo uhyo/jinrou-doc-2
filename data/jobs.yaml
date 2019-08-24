@@ -1138,6 +1138,24 @@ jobs:
       judge: "人"
       select: null
       source: "えけけ鯖"
+  DarkClown:
+      name: "闇道化"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "闇夜の人狼"
+  DualPersonality:
+      name: "二重人格"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "ねじれ天国"
   Sacrifice:
       name: "人身御供"
       team: "村人陣営"
