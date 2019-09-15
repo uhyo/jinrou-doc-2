@@ -1167,6 +1167,16 @@ jobs:
       vampireGuard: true
       select: "任意"
       source: "オリジナル"
+  NightRabbit:
+      name: "夜兎"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      wolfTolerance: true
+      select: null
+      source: "人狼物語（薔薇の下国）"
 
 # 陣営の定義
 teams:
