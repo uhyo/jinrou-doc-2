@@ -1,0 +1,23 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>誰が絶対狼か全員に公開されます。</p>
+  <p>他の人狼が生存している間は絶対狼は死亡しません。</p>
+  <p>ただし、以下のいずれかの条件を満たした場合はこの限りではありません。</p>
+  <ul>
+    <li>[[人狼陣営]]ではない場合。</li>
+    <li>[[暴動者]]になった場合。</li>
+    <li>[[狂愛者]]の対象にされた場合。</li>
+  </ul>
+
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[絶対的人狼]]</p>
+  </section>
+{/job_content}

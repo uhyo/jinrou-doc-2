@@ -1167,6 +1167,15 @@ jobs:
       vampireGuard: true
       select: "任意"
       source: "オリジナル"
+  AbsoluteWolf:
+      name: "絶対狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "強制"
+      source: "絶対的人狼"
 
 # 陣営の定義
 teams:
