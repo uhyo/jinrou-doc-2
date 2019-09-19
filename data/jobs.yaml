@@ -1176,7 +1176,15 @@ jobs:
       judge: "狼"
       select: "強制"
       source: "絶対的人狼"
-
+  Oracle:
+      name: "預言者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼式"
 # 陣営の定義
 teams:
   Human: "村人陣営"
