@@ -1195,6 +1195,15 @@ jobs:
       wolfTolerance: true
       select: null
       source: "人狼物語（薔薇の下国）"
+  Fate:
+      name: "運命の子"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼物語（深海国）"
 
 # 陣営の定義
 teams:
