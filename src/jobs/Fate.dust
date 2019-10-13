@@ -1,0 +1,30 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>自身の役職が「[[村人]]」と表示されます。</p>
+  <p>[[占い師]]・[[人狼占い]]・[[超常現象研究者]]・[[サトリ]]の占い対象になった場合、他の村人陣営の役職に変化します。</p>
+  <p>その夜に自身が死亡した場合は変化しません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>変化したとき</dt>
+      <dd>
+        <p class="log skill">○○は○○になりました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[村人]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼物語（深海国）</p>
+  </section>
+{/job_content}
