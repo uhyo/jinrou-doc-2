@@ -9,10 +9,9 @@
   },
   "author": "uhyo",
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^3.13.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "my-static": "^2.0.0"
+    "my-static": "^2.0.0",
+    "node-sass": "^4.12.0"
   }
 }
