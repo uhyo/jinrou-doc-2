@@ -45,21 +45,39 @@ ol {
   margin: 0.4rem 0 0.4rem 0.2rem;
 }
 ul li {
-  margin: 0.2em 0;
   padding-left: 10px;
+  line-height: 1.5;
 
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAXSURBVBhXY1iGBJYvX47CBwLS+MuWAQCazzCmYadUGwAAAABJRU5ErkJggg==)
-    0 0.3em no-repeat;
+    0 0.6em no-repeat;
 }
+
+ol li {
+  margin: 0.3em 0;
+}
+
 dl {
   margin: 0.4rem 0.2rem;
 }
 dd {
   margin-left: 5rem;
 }
+
+th, td {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
 p {
+  margin: 0.5em 0;
   line-height: 1.5;
 }
+
+hr {
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
 /* パンくずリスト */
 p.bcl {
   font-size: small;
@@ -71,17 +89,17 @@ body {
 }
 header.page-header {
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background-color: #f3f3f3;
 }
 header.page-header h1 {
-  height: 2rem;
+  height: 1.5rem;
   margin: 0;
   padding-left: 1em;
 
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
-  line-height: 4rem;
+  line-height: 3rem;
 
   white-space: nowrap;
 }
@@ -98,11 +116,21 @@ nav.page-nav ul {
 }
 main.page-main {
   flex: 1 1 auto;
+  padding: 2px;
 }
+
+// tables for smp
+.smp-table {
+  display: none;
+}
+
 @media (max-width: 768px) {
   ul li {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  dd {
+    margin-left: 1rem;
   }
   div.page-container {
     display: block;
@@ -110,24 +138,105 @@ main.page-main {
   nav.page-nav ul {
     display: flex;
     flex-flow: row wrap;
+    margin: 0;
 
     li {
       display: block;
       flex: 30% 1 1;
+      padding: 0.3em none;
+      text-align: center;
+
+      background: none;
     }
   }
   main.page-main {
     padding-left: 4px;
+  }
+
+  .smp-table {
+    display: block;
   }
 }
 
 footer.page-footer {
   width: 100%;
   background-color: #f3f3f3;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 footer.page-footer p {
+  margin: 0;
   text-indent: 10rem;
 }
+
+// ---------- jobs/ ----------
+div.jobs-table-wrapper {
+  width: 100%;
+  overflow-x: visible;
+}
+
+table.jobs-table {
+  width: max-content;
+
+  thead th {
+    position: sticky;
+    top: 0;
+    padding: 0 2px;
+    background-color: white;
+
+    &:first-child {
+      z-index: 1;
+    }
+  }
+
+  tr:nth-of-type(2n + 1) td {
+    background-color: #f3f3f3;
+  }
+
+  tr:nth-of-type(2n) td {
+    background-color: #ffffff;
+  }
+
+  td:first-child, th:first-child {
+    position: sticky;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  table.jobs-table {
+    font-size: 0.9em;
+
+    td:first-child, th:first-child {
+      max-width: 7em;
+    }
+  }
+}
+
+table.jobs-list-smp-table {
+  tr:nth-of-type(2n+1) {
+    th, td {
+      border-bottom: none;
+    }
+  }
+  th, td {
+    vertical-align: top;
+    font-size: 0.8em;
+  }
+  td:nth-of-type(3) {
+    width: 4em;
+  }
+  td:nth-of-type(4) {
+    width: 3em;
+  }
+
+  b {
+    display: block;
+    font-weight: normal;
+    color: #666666;
+  }
+}
+
+
 div.jobinfo table {
   caption {
     font-size: 0.85em;

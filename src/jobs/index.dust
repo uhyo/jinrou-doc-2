@@ -3,37 +3,39 @@
   <article>
     <h1>役職一覧</h1>
     <p>役職の詳細は各役職のページを参照してください。</p>
-    <table>
-      <thead>
-        <tr>
-          <th>役職名</th>
-          <th>陣営</th>
-          <th>系統</th>
-          <th>占い結果</th>
-          <th>霊能結果</th>
-          <th>出典</th>
-        </tr>
-      </thead>
-      <tbody>
-        {@keys obj=jobs.jobs}
+    <div class="jobs-table-wrapper">
+      <table class="pc-table jobs-table">
+        <thead>
           <tr>
-            <td>[[{value.name}]]</td>
-            <td>[[{value.team}]]</td>
-            <td>{@eq key=value.type value="なし"}
-              なし
-              {:else}
-              [[{value.type}]]
-            {/eq}</td>
-            <td>{value.fortune}</td>
-            <td>{value.psychic}</td>
-            <td>{@isin key=value.source obj=urlTable}
-              <a href="{@get key=value.source obj=urlTable /}">{value.source}</a>
-              {:else}
-              {value.source}
-            {/isin}</td>
+            <th>役職名</th>
+            <th>陣営</th>
+            <th>系統</th>
+            <th>占い結果</th>
+            <th>霊能結果</th>
+            <th>出典</th>
           </tr>
-        {/keys}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {@keys obj=jobs.jobs}
+            <tr>
+              <td>[[{value.name}]]</td>
+              <td>[[{value.team}]]</td>
+              <td>{@eq key=value.type value="なし"}
+                なし
+                {:else}
+                [[{value.type}]]
+              {/eq}</td>
+              <td>{value.fortune}</td>
+              <td>{value.psychic}</td>
+              <td>{@isin key=value.source obj=urlTable}
+                <a href="{@get key=value.source obj=urlTable /}">{value.source}</a>
+                {:else}
+                {value.source}
+              {/isin}</td>
+            </tr>
+          {/keys}
+        </tbody>
+      </table>
+    </div>
   </article>
 {/content}
