@@ -1231,6 +1231,15 @@ jobs:
       judge: "人"
       select: null
       source: "その他"
+  Streamer:
+      name: "配信者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
@@ -1301,3 +1310,7 @@ subs:
     name: "警備員"
     disp: "役職名（警備員）"
     real: "役職名（警備員）"
+  Listener:
+    name: "視聴者"
+    disp: "役職名"
+    real: "役職名"
