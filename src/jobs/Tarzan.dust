@@ -1,0 +1,23 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[村人陣営]]に属する役職です。</p>
+  <p>毎朝、その時点で生存している[[人狼系]]のプレイヤーの人数を知らされます。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>野生児の能力の結果表示</dt>
+      <dd>
+        <p class="log skill">○○は○○人の人狼の気配を感じた。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼物語（三日月国）</p>
+  </section>
+{/job_content}
