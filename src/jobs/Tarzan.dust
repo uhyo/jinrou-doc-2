@@ -12,7 +12,7 @@
     <dl class="logs">
       <dt>野生児の能力の結果表示</dt>
       <dd>
-        <p class="log skill">○○は○○人の人狼の気配を感じた。</p>
+        <p class="log skill">○○は○○人の人狼の気配を感じました。</p>
       </dd>
     </dl>
   </section>
