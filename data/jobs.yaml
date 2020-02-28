@@ -1240,6 +1240,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "オリジナル"
+  QueenOfNight:
+      name: "月下美人"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼物語（深海国）"
 
 # 陣営の定義
 teams:
