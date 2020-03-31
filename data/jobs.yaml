@@ -1266,6 +1266,15 @@ jobs:
       judge: "狼"
       select: "強制"
       source: "人狼議事"
+  Hitokotonushinokami:
+      name: "一言主神"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "人狼式"
 
 # 陣営の定義
 teams:
