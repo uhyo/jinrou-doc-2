@@ -1257,6 +1257,15 @@ jobs:
       psychic: "村人"
       judge: "人"
       source: "人狼物語（三日月国）"
+  CurseWolf:
+      name: "呪狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "強制"
+      source: "人狼議事"
 
 # 陣営の定義
 teams:
