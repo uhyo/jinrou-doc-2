@@ -13,7 +13,7 @@
     <dl class="logs">
       <dt>処刑されそうになったとき</dt>
       <dd>
-        <p class="log skill">○○は家にこもり続けて処刑を免れました。</p>
+        <p class="log system">○○は家にこもり続けて処刑を免れました。</p>
       </dd>
     </dl>
   </section>
