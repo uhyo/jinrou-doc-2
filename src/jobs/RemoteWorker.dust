@@ -9,6 +9,15 @@
     <p>[[村人陣営]]の勝利。</p>
   </section>
   <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>処刑されそうになったとき</dt>
+      <dd>
+        <p class="log skill">○○は家にこもり続けて処刑を免れました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
     <h2>関連項目</h2>
     <ul>
       <li>[[おばけ]]</li>
