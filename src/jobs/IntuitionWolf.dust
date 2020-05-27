@@ -15,7 +15,7 @@
     <dl class="logs">
       <dt>護衛されたとき</dt>
       <dd>
-        <p class="log skill">○○は○○に護衛されたことを直感しました。/p>
+        <p class="log skill">○○は○○に護衛されたことを直感しました。</p>
       </dd>
     </dl>
   </section>
