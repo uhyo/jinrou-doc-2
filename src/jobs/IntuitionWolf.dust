@@ -1,0 +1,17 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>[[狩人]]・[[犬]]・[[罠師]]・[[風来狩人]]・[[コスプレイヤー]]・[[竜騎士]]・[[侍]]・[[精霊使い]]の護衛対象になった場合、その護衛者が誰か知ることが出来ます。</p>
+
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+
+  <section>
+    <h2>出典</h2>
+    <p>24時間耐久人狼</p>
+  </section>
+{/job_content}
