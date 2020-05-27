@@ -1284,6 +1284,15 @@ jobs:
       judge: "なし"
       select: null
       source: "オリジナル"
+  IntuitionWolf:
+      name: "直感派狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "24時間耐久人狼"
 
 # 陣営の定義
 teams:
