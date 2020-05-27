@@ -9,6 +9,16 @@
     <h2>勝利条件</h2>
     <p>[[人狼陣営]]の勝利。</p>
   </section>
+  
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>護衛されたとき</dt>
+      <dd>
+        <p class="log skill">○○は○○に護衛されたことを直感しました。/p>
+      </dd>
+    </dl>
+  </section>
 
   <section>
     <h2>出典</h2>
