@@ -1292,7 +1292,7 @@ jobs:
       psychic: "人狼"
       judge: "狼"
       select: null
-      source: "24時間耐久人狼"
+      source: "24時間耐久人狼パーティー"
 
 # 陣営の定義
 teams:
