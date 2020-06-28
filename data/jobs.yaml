@@ -1293,6 +1293,15 @@ jobs:
       judge: "狼"
       select: null
       source: "24時間耐久人狼パーティー"
+  Lorelei:
+      name: "ローレライ"
+      team: "ローレライ陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "なし"
+      select: null
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
@@ -1305,6 +1314,7 @@ teams:
   Friend: "恋人陣営"
   Raven: "鴉陣営"
   Hooligan: "暴徒陣営"
+  Lorelei: "ローレライ陣営"
   Others: "その他"
 
 # 系統の定義
@@ -1367,3 +1377,7 @@ subs:
     name: "視聴者"
     disp: "役職名"
     real: "役職名"
+  LoreleiFamilia:
+    name: "ローレライのしもべ"
+    disp: "ローレライのしもべ（役職名）"
+    real: "ローレライのしもべ（役職名）"
