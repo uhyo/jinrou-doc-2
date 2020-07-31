@@ -1302,6 +1302,15 @@ jobs:
       judge: "なし"
       select: null
       source: "オリジナル"
+  Gambler:
+      name: "ギャンブラー"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "ねじれ天国"
 
 # 陣営の定義
 teams:
