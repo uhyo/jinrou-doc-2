@@ -1311,6 +1311,24 @@ jobs:
       judge: "人"
       select: "任意"
       source: "ねじれ天国"
+  Faker:
+      name: "イカサマ師"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "ねじれ天国"
+  SealWolf:
+      name: "印狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼式"
 
 # 陣営の定義
 teams:
