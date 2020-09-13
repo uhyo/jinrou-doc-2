@@ -1440,3 +1440,7 @@ subs:
     name: "月狂病"
     disp: "月狂病（役職名）"
     real: "月狂病（役職名）"
+  Bonds:
+    name: "絆"
+    disp: "役職名（絆）"
+    real: "役職名（絆）"
