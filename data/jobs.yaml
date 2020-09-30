@@ -1265,7 +1265,7 @@ jobs:
       psychic: "人狼"
       judge: "狼"
       select: "強制"
-      source: "人狼議事"
+      source: "人狼物語"
   Hitokotonushinokami:
       name: "一言主神"
       team: "村人陣営"
@@ -1329,6 +1329,34 @@ jobs:
       judge: "狼"
       select: null
       source: "人狼式"
+  CynthiaWolf:
+      name: "月狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼物語（深海国）" 
+  Trickster:
+      name: "悪戯妖精"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      wolfTolerance: true
+      select: "強制"
+      source: "人狼議事" 
+  Sleepwalker:
+      name: "夢遊病者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "dat人狼" 
 
 # 陣営の定義
 teams:
@@ -1408,3 +1436,11 @@ subs:
     name: "ローレライのしもべ"
     disp: "ローレライのしもべ（役職名）"
     real: "ローレライのしもべ（役職名）"
+  MoonPhilia:
+    name: "月狂病"
+    disp: "月狂病（役職名）"
+    real: "月狂病（役職名）"
+  Bonds:
+    name: "絆"
+    disp: "役職名（絆）"
+    real: "役職名（絆）"

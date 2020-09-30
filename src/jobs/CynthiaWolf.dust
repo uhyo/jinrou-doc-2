@@ -1,0 +1,27 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>占い能力の対象になった場合、または護衛能力の対象になった場合、その人を魅了し[[月狂病]]にします。</p>
+  <p>月狼からはこの能力が発動したかどうかはわかりません。/p>
+
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      {+log_werewolf/}
+      <dt>[[月狂病]]になったとき（魅了された側に表示）</dt>
+      <dd>
+        <p class="log skill">○○は○○の放つ月のオーラに魅せられました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼物語（深海国）</p>
+  </section>
+{/job_content}
