@@ -1357,6 +1357,15 @@ jobs:
       judge: "人"
       select: null
       source: "dat人狼" 
+  Disguised:
+      name: "仮装者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "なし"
+      select: null
+      source: "オリジナル"
 
 # 陣営の定義
 teams:
