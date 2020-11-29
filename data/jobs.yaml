@@ -477,7 +477,7 @@ jobs:
       source: "人狼天国"
   Thief:
       name: "盗人"
-      team: "村人陣営"
+      team: "その他"
       type: "役職変化系"
       fortune: "村人"
       psychic: "村人"
