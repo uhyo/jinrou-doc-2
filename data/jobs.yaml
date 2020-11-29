@@ -1366,6 +1366,15 @@ jobs:
       judge: "なし"
       select: null
       source: "オリジナル"
+  Oni:
+      name: "鬼"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "鬼"
+      psychic: "鬼"
+      judge: "人"
+      select: "任意"
+      source: "人狼式"
 
 # 陣営の定義
 teams:
