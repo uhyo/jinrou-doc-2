@@ -1,0 +1,16 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>闇狼が生存している間は投票結果が開示されません。</p>
+
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼村</p>
+  </section>
+{/job_content}

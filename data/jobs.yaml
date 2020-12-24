@@ -1363,7 +1363,7 @@ jobs:
       type: "村人系"
       fortune: "村人"
       psychic: "村人"
-      judge: "なし"
+      judge: "人"
       select: null
       source: "オリジナル"
   Oni:
@@ -1375,6 +1375,33 @@ jobs:
       judge: "人"
       select: "任意"
       source: "人狼式"
+  Saint:
+      name: "御子"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼物語（深海国）" 
+  NetherWolf:
+      name: "冥狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "ねじれ天国" 
+  DarkWolf:
+      name: "闇狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: null
+      source: "人狼村"     
 
 # 陣営の定義
 teams:

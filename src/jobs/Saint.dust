@@ -1,0 +1,30 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>他の[[共有者]]・[[御子]]が誰かを把握し、夜は共有者の会話ができます。</p>
+  <p>また、4日目の夜に任意で一人を蘇生することができます。蘇生成功率は100%ですが、4日目のみ1度きりです。</p>
+  <p>4日目の夜に御子が死亡した場合は蘇生は行われません。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>共有者の小声</dt>
+      <dd>
+        <p class="log couple">共有者の小声：ヒソヒソ・・・</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[共有者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼物語（深海国）</p>
+  </section>
+{/job_content}
