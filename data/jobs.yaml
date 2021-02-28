@@ -1402,6 +1402,15 @@ jobs:
       judge: "狼"
       select: null
       source: "人狼村"     
+  Acrobat:
+      name: "曲芸師"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル"     
 
 # 陣営の定義
 teams:

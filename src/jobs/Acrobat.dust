@@ -1,0 +1,25 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[狂人系]]の役職です。[[人狼系]]による襲撃を1回だけ無効化することができます。襲撃を無効化した場合、自分にだけ見えるログが表示されます。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>襲撃を回避したとき</dt>
+      <dd>
+        <p class="log skill">○○は人狼の襲撃を回避しました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>月下人狼オリジナル役職。</p>
+  </section>
+{/job_content}
+
+
+
