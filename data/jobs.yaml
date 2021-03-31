@@ -1411,6 +1411,15 @@ jobs:
       judge: "人"
       select: null
       source: "オリジナル"     
+  Hanami:
+      name: "花見客"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル"     
 
 # 陣営の定義
 teams:
