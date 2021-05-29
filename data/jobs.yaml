@@ -1429,6 +1429,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "人狼式"
+  BloodWolf:
+      name: "血狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "強制"
+      source: "人狼はウソ月"
 
 # 陣営の定義
 teams:
