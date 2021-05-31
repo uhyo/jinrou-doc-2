@@ -1,0 +1,37 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[人狼系]]の役職です。</p>
+  <p>ゲーム中に一度だけ、昼に自爆することが出来ます。</p>
+  <p>自爆した場合は、昼の議論が中断されます。</p>
+  <p>さらに、その夜は人狼系以外の参加者は能力が使えなくなります。</p>
+  {>"$PROJ/templates/common/Werewolf.dust"/}
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[人狼陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>能力使用時</dt>
+      <dd>
+        <p class="log skill">○○は自らを犠牲に血月の力を引き出します。</p>
+      </dd>
+      <dt>能力を発動後夜になったとき</dt>
+      <dd>
+        <p class="log skill">血月の力により村人たちは能力を封印されています。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[威嚇する狼]]</li>
+      <li>[[花火師]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>人狼はウソ月</p>
+  </section>
+{/job_content}
