@@ -1438,6 +1438,24 @@ jobs:
       judge: "狼"
       select: "強制"
       source: "人狼はウソ月"
+  Reincarnator:
+      name: "転生者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼王"
+  Duelist:
+      name: "決闘者"
+      team: "決闘者陣営"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "人狼式"
 
 # 陣営の定義
 teams:
@@ -1450,6 +1468,7 @@ teams:
   Friend: "恋人陣営"
   Raven: "鴉陣営"
   Hooligan: "暴徒陣営"
+  Duel: "決闘者陣営"
   Lorelei: "ローレライ陣営"
   Others: "その他"
 
@@ -1525,3 +1544,7 @@ subs:
     name: "絆"
     disp: "役職名（絆）"
     real: "役職名（絆）"
+  Enemy:
+    name: "宿敵"
+    disp: "宿敵（役職名）"
+    real: "宿敵（役職名）"
