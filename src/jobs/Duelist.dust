@@ -1,0 +1,36 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>[[決闘者陣営]]に属する役職です。</p>
+  <p>[[宿敵]]を作る役職です。初日の夜に参加者から1人指定して自身の宿敵にします。指定した時点で即座に宿敵になり、相手に伝わります。</p>
+  <p>陣営勝利はなく、個人戦になります。</p>
+
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[勝利判定]]時に、自身が生存且つ宿敵対象が死亡していれば勝利陣営と一緒に勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>対象選択時</dt>
+      <dd>
+        <p class="log skill">○○は○○に決闘を申し込みました。</p>
+      </dd>
+      <dt>宿敵相手が決まったとき</dt>
+      <dd>
+        <p class="log skill">○○は○○との決闘に挑みます。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[ならず者]]</li>
+      <li>[[鴉]]</li>
+      <li>[[宿敵]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[人狼式]]</p>
+  </section>
+{/job_content}
