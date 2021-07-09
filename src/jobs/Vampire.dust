@@ -5,8 +5,7 @@
 
   <p>ヴァンパイアが複数いる場合、互いに把握できますが夜に会話はできません。また、ヴァンパイア1人につき1人襲撃することができます。</p>
   <p>[[ドラキュラ]]とは互いに把握することはできません。</p>
-  <p>[[人狼系]]の襲撃とは異なり、{#dynamic.vampireToleranceJobs}[[{.name}]]{@sep}・{/sep}{/dynamic.vampireToleranceJobs}を除く全ての役職を死亡させることができます。特に、[[ヴァンパイア]]を襲撃して死亡させることもできます。
-p 
+  <p>[[人狼系]]の襲撃とは異なり、{#dynamic.vampireToleranceJobs}[[{.name}]]{@sep}・{/sep}{/dynamic.vampireToleranceJobs}を除く全ての役職を死亡させることができます。特に、[[ヴァンパイア]]を襲撃して死亡させることもできます。</p>
 
   <section>
     <h2>勝利条件</h2>
@@ -26,4 +25,3 @@ p
     <p>究極の人狼</p>
   </section>
 {/job_content}
-
