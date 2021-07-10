@@ -1,0 +1,37 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>1日目の夜に、参加者二人を指定して通訳をします。</p>
+  <p>通訳をされた人は共有者の会話を使えるようになります。</p>
+  <p>通訳自身は共有者の会話を見ることが出来ますが、発言は出来ません。発言するには自分を指定する必要があります。</p>
+  <section>
+    <h2>勝利条件</h2>
+    <p>[[村人陣営]]の勝利。</p>
+  </section>
+  <section>
+    <h2>ログ</h2>
+    <dl class="logs">
+      <dt>通訳する1人目を選択したとき</dt>
+      <dd>
+        <p class="log skill">○○は通訳をする1人目に○○を選びました。</p>
+      </dd>
+      <dt>通訳する2人目を選択したとき（2人分出現）</dt>
+      <dd>
+        <p class="log skill">○○は○○を通訳します。</p>
+      </dd>
+      <dt>通訳をされたとき（通訳された側に出現）</dt>
+      <dd>
+        <p class="log skill">○○は通訳を手配されました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[共有者]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>ねじれ天国</p>
+  </section>
+{/job_content}
