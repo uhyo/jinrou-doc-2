@@ -1483,6 +1483,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "ねじれ天国"
+  Dreamer:
+      name: "胡蝶"
+      team: "村人陣営"
+      type: "役職変化系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼物語（薔薇の下国）"
 
 # 陣営の定義
 teams:
