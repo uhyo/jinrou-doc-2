@@ -1502,6 +1502,15 @@ jobs:
       wolfTolerance: true
       select: "任意"
       source: "人狼物語（三日月国）"
+  Assassin:
+      name: "暗殺者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "メビウス人狼"
 
 # 陣営の定義
 teams:
