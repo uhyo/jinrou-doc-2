@@ -1511,6 +1511,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "メビウス人狼"
+  Shadow:
+      name: "影法師"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "フェルト人狼"
 
 # 陣営の定義
 teams:
