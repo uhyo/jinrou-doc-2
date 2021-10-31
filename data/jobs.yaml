@@ -1520,6 +1520,15 @@ jobs:
       judge: "人"
       select: null
       source: "フェルト人狼"
+  AttractiveWoman:
+      name: "美女"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼はウソ月"
 
 # 陣営の定義
 teams:
