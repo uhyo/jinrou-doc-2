@@ -1529,6 +1529,25 @@ jobs:
       judge: "人"
       select: "任意"
       source: "人狼はウソ月"
+  Actress:
+      name: "女狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      wolfTolerance: true
+      select: null
+      source: "真紅の狼"
+  DestroyCraziest:
+      name: "破壊の狂人"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "真紅の狼"
 
 # 陣営の定義
 teams:
