@@ -1593,6 +1593,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "オリジナル"
+  HouseKeeper:
+      name: "家政婦"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼 ジャッジメント"
 
 # 陣営の定義
 teams:
