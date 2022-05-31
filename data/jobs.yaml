@@ -1602,6 +1602,15 @@ jobs:
       judge: "人"
       select: "任意"
       source: "人狼 ジャッジメント"
+  RainyBoy:
+      name: "雨男"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼ゲームオンライン"
 
 # 陣営の定義
 teams:
