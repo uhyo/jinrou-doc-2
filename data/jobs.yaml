@@ -1631,6 +1631,16 @@ jobs:
       source: "人狼 ジャッジメント"
 
 # 陣営の定義
+  WerewolfDescendant:
+      name: "人狼の末裔"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+
 teams:
   Human: "村人陣営"
   Werewolf: "人狼陣営"
@@ -1721,3 +1731,4 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
