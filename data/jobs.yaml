@@ -1812,6 +1812,15 @@ jobs:
       judge: "人"
       select: null
       source: "人狼 ジャッジメント"
+  DoubleHeadedWolf:
+      name: "双頭の狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "双頭の狼"
+      psychic: "双頭の狼"
+      judge: "狼"
+      select: "強制"
+      source: "月夜の人狼"
 
 teams:
   Human: "村人陣営"
@@ -1903,6 +1912,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
