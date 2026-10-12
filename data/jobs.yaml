@@ -1746,6 +1746,17 @@ jobs:
       select: null
       wolfTolerance: true
       source: "オリジナル"
+  Paladin:
+      name: "聖騎士"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      wolfGuard: true
+      vampireGuard: true
+      source: "人狼オールスター/狼きゅーぶ！"
 
 teams:
   Human: "村人陣営"
@@ -1837,6 +1848,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
