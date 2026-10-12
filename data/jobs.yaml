@@ -1766,6 +1766,15 @@ jobs:
       judge: "人"
       select: "強制"
       source: "月夜の人狼"
+  MagicalGirl:
+      name: "魔法少女"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
 
 teams:
   Human: "村人陣営"
@@ -1857,6 +1866,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
