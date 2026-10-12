@@ -1,0 +1,36 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>「人狼ジャッジメント」に登場する役職。村人陣営の年長者。</p>
+
+  <section>
+    <h2>特殊能力</h2>
+    <p>人狼・吸血鬼・九尾の狐の襲撃を受けたとき、最初の1回は死亡しない。</p>
+    <p>襲撃を耐えたとき、襲撃者は襲撃先が長老であることを知る。長老自身はそのことを知らない。</p>
+    <p>2回目の襲撃では死亡する。</p>
+  </section>
+  <section>
+    <h2>勝利条件</h2>
+    <p>村人陣営の勝利</p>
+  </section>
+  <section>
+    <h2>システムメッセージ</h2>
+    <dl class="logs">
+      <dt>襲撃を耐えたとき（襲撃者に表示されます）</dt>
+      <dd>
+        <p class="log skill">襲撃された○○は長老です。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[タフガイ]]</li>
+      <li>[[呪われた者]]</li>
+      <li>[[九尾の狐]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[人狼 ジャッジメント]]</p>
+  </section>
+{/job_content}
