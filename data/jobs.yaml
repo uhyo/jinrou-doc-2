@@ -1793,6 +1793,16 @@ jobs:
       judge: "人"
       select: null
       source: "オリジナル/ねじれ天国"
+  FoxMatchmaker:
+      name: "狐の仲人"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "強制"
+      wolfTolerance: true
+      source: "オリジナル"
 
 teams:
   Human: "村人陣営"
@@ -1884,6 +1894,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
