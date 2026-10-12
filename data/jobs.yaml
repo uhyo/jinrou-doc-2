@@ -1757,6 +1757,15 @@ jobs:
       wolfGuard: true
       vampireGuard: true
       source: "人狼オールスター/狼きゅーぶ！"
+  MumouDiviner:
+      name: "無謀な占い師"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "月夜の人狼"
 
 teams:
   Human: "村人陣営"
@@ -1848,6 +1857,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
