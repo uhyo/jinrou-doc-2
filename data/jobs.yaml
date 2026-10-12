@@ -1857,6 +1857,15 @@ jobs:
       judge: "人"
       select: null
       source: "るる鯖"
+  Teruteru:
+      name: "てるてる坊主"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
 
 teams:
   Human: "村人陣営"
@@ -1948,6 +1957,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
