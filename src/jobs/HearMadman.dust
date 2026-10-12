@@ -1,0 +1,26 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>るる鯖に存在する役職。狂信者の強化版。夜間に人狼の会話を聞くことができる。</p>
+
+  <section>
+    <h2>特殊能力</h2>
+    <p>夜間、人狼の会話を聴取できるが、参加にはできない。</p>
+    <p>占い師・霊能者の結果は『村人』となる。勝利判定時は村人として数えられる。</p>
+  </section>
+  <section>
+    <h2>勝利条件</h2>
+    <p>人狼陣営の勝利</p>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[狂人]]</li>
+      <li>[[狂信者]]</li>
+      <li>[[囁き狂人]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>るる鯖</p>
+  </section>
+{/job_content}
