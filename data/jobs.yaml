@@ -1688,6 +1688,16 @@ jobs:
       select: "任意"
       wolfTolerance: true
       source: "人狼倶楽部/フェルト人狼"
+  NineTailedFox:
+      name: "九尾の狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "任意"
+      wolfTolerance: true
+      source: "人狼 ジャッジメント"
 
 teams:
   Human: "村人陣営"
@@ -1779,6 +1789,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
