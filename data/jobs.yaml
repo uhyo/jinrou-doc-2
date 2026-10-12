@@ -1784,6 +1784,15 @@ jobs:
       judge: "狼"
       select: "強制"
       source: "人狼 ジャッジメント"
+  Hero:
+      name: "英雄"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル/ねじれ天国"
 
 teams:
   Human: "村人陣営"
@@ -1875,6 +1884,7 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
 
 
 
