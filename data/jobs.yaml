@@ -1776,7 +1776,7 @@ jobs:
       select: null
       source: "人狼 ジャッジメント"
   LastStandWolf:
-      name: "最後の狼"
+      name: "窮地の人狼"
       team: "人狼陣営"
       type: "人狼系"
       fortune: "人狼"
@@ -1831,7 +1831,7 @@ jobs:
       select: null
       source: "人狼 ジャッジメント"
   Princess:
-      name: "姫"
+      name: "プリンセス"
       team: "村人陣営"
       type: "村人系"
       fortune: "村人"
