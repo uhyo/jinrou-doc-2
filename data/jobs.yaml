@@ -1631,6 +1631,242 @@ jobs:
       source: "人狼 ジャッジメント"
 
 # 陣営の定義
+  WerewolfDescendant:
+      name: "人狼の末裔"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  SuperWerewolf:
+      name: "SP人狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "強制"
+      source: "オリジナル/人狼 ジャッジメント"
+  MadDictator:
+      name: "悪裁者"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル"
+  SuperDiviner:
+      name: "SP占い師"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "希望ヶ峰学園心理学科"
+  OldGuard:
+      name: "老騎士"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      wolfGuard: true
+      vampireGuard: true
+      source: "オリジナル"
+  HimeFox:
+      name: "姫狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "任意"
+      wolfTolerance: true
+      source: "人狼倶楽部/フェルト人狼"
+  NineTailedFox:
+      name: "九尾の狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "任意"
+      wolfTolerance: true
+      source: "人狼 ジャッジメント"
+  SuperGuard:
+      name: "SP狩人"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      wolfGuard: true
+      vampireGuard: true
+      source: "希望ヶ峰学園心理学科"
+  Perfidious:
+      name: "背信者"
+      team: "妖狐陣営"
+      type: "背徳者系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  Heretic:
+      name: "異端者"
+      team: "妖狐陣営"
+      type: "背徳者系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント/ねじれ天国"
+  MindPsychic:
+      name: "念縛霊能者"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "人狼倶楽部/フェルト人狼"
+  SuperFox:
+      name: "SP妖狐"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: null
+      wolfTolerance: true
+      source: "オリジナル"
+  Paladin:
+      name: "聖騎士"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      wolfGuard: true
+      vampireGuard: true
+      source: "人狼オールスター/狼きゅーぶ！"
+  MumouDiviner:
+      name: "無謀な占い師"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "強制"
+      source: "月夜の人狼"
+  MagicalGirl:
+      name: "魔法少女"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  LastStandWolf:
+      name: "窮地の人狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "人狼"
+      psychic: "人狼"
+      judge: "狼"
+      select: "強制"
+      source: "人狼 ジャッジメント"
+  Hero:
+      name: "英雄"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "オリジナル/ねじれ天国"
+  FoxMatchmaker:
+      name: "狐の仲人"
+      team: "妖狐陣営"
+      type: "妖狐系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "狐"
+      select: "強制"
+      wolfTolerance: true
+      source: "オリジナル"
+  Elder:
+      name: "長老"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  DoubleHeadedWolf:
+      name: "双頭の狼"
+      team: "人狼陣営"
+      type: "人狼系"
+      fortune: "双頭の狼"
+      psychic: "双頭の狼"
+      judge: "狼"
+      select: "強制"
+      source: "月夜の人狼"
+  ButaOtoko:
+      name: "猪男"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  Princess:
+      name: "プリンセス"
+      team: "村人陣営"
+      type: "村人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+  LandmineGirl:
+      name: "地雷少女"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: "任意"
+      source: "オリジナル/ダンジョン人狼"
+  HearMadman:
+      name: "聴狂人"
+      team: "人狼陣営"
+      type: "狂人系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "るる鯖"
+  Teruteru:
+      name: "てるてる坊主"
+      team: "その他"
+      type: "第三陣営系"
+      fortune: "村人"
+      psychic: "村人"
+      judge: "人"
+      select: null
+      source: "人狼 ジャッジメント"
+
 teams:
   Human: "村人陣営"
   Werewolf: "人狼陣営"
@@ -1721,3 +1957,28 @@ subs:
     name: "宿敵"
     disp: "宿敵（役職名）"
     real: "宿敵（役職名）"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

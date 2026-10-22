@@ -96,7 +96,10 @@ module.exports = context=>{
         // ページ名ごとに対応するあれを作る
         const rootDir = context.settings.rootDir;
         const jobs = data.jobs;
-        const rltv = path.relative(rootDir, filename);
+        // パス区切り文字を常に '/' に正規化する
+        // （Windows では path.relative が '\' を返すため、下の正規表現に一致しなくなる）
+        // Linux では path.sep が '/' なのでこの変換は無変換となる
+        const rltv = path.relative(rootDir, filename).split(path.sep).join('/');
         const adds = {};
         // ページの種別ごとにあれを用意する
         let r;

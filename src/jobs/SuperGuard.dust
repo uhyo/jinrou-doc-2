@@ -1,0 +1,44 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>超狩人、または二丁拳銃とも呼ばれる。「希望ヶ峰学園心理学科」シリーズの役職。</p>
+
+  <section>
+    <h2>特殊能力</h2>
+    <p>夜に1人を選び、その人を人狼と吸血鬼の襲撃から守ることができる。ただし1日目の夜は護衛できない。</p>
+    <p>さらに夜に<strong>一度だけ</strong>、追加で護衛することができる。（突然死には影響しない）</p>
+    <p>対象を選択しなかった場合は突然死するので注意。</p>
+  </section>
+  <section>
+    <h2>勝利条件</h2>
+    <p>村人陣営の勝利</p>
+  </section>
+  <section>
+    <h2>システムメッセージ</h2>
+    <dl class="logs">
+      <dt>護衛対象を選択したとき</dt>
+      <dd>
+        <p class="log skill">○○は○○を護衛しました。</p>
+      </dd>
+      <dt>追加護衛を行ったとき</dt>
+      <dd>
+        <p class="log skill">○○は○○を追加で護衛しました。</p>
+      </dd>
+      <dt>護衛に成功したとき（設定で有効な場合のみ表示されます）</dt>
+      <dd>
+        <p class="log skill">○○は○○の護衛に成功しました。</p>
+      </dd>
+    </dl>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[狩人]]</li>
+      <li>[[風来狩人]]</li>
+      <li>[[罠師]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>希望ヶ峰学園心理学科</p>
+  </section>
+{/job_content}

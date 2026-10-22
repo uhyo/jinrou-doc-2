@@ -1,0 +1,25 @@
+{>"$PROJ/templates/job.dust"/}
+{<job_content}
+  <p>「月夜の人狼」に登場する役職。策も謀もない占い師で、守られることがない。</p>
+
+  <section>
+    <h2>特殊能力</h2>
+    <p>基本的に占い師と同じだが、狩人系に護衛されても護衛が無効になる。</p>
+    <p>占い対象を選択しなかった場合は突然死するので注意。</p>
+  </section>
+  <section>
+    <h2>勝利条件</h2>
+    <p>村人陣営の勝利</p>
+  </section>
+  <section>
+    <h2>関連項目</h2>
+    <ul>
+      <li>[[占い師]]</li>
+      <li>[[SP占い師]]</li>
+    </ul>
+  </section>
+  <section>
+    <h2>出典</h2>
+    <p>[[月夜の人狼]]</p>
+  </section>
+{/job_content}
